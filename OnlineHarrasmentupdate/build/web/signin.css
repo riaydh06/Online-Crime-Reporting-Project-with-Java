@@ -1,0 +1,93 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: url("img/bc.jpg");
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.form-signin input {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.container{width: 80%;
+   background: url('img/8.png');
+}
+.footer{
+    background-color:#680000;
+    margin-top:10px;
+        
+}
+.about{float:left;}
+.about a{text-decoration:none;}
+.sociallink{float:right;padding:20px}
+.sociallink li{float:left;display:block;padding-left:10px;}
+.sociallink li a{display:block;}
+.page{background-color:white;padding:20px;
+ margin-bottom:20px;margin-top:20px;}
+.navbar {
+      margin-bottom: 0;
+      background-color: #680000;
+      z-index: 0;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .label_title {
+    color: #0c4da2;
+    border: 1px solid #0C4DA2;
+    background: white;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.titles-blue-bar {
+    background: #0c4da2;
+    display: block;
+    width: 15px;
+    margin-right: 12px;
+    float: left;
+    height: 50px;
+}
+.fix{overflow:hidden;}
+.portfolio{margin-bottom:50px;background:url('img/bg2.jpg')
+;padding:10px}
+.portpic{width:25%;float:left;}
+.news{background:url('img/bg2.jpg');padding:10px;margin-bottom:50px;}
+.descrip{background:url('img/bg.jpg');padding:15px;}
+.thumbnail{background-color: #680000}

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 20, 2017 3:21:27 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="hibernate.ComplainTable" table="complain_table" catalog="ohsdb">
+        <id name="complainId" type="java.lang.Integer">
+            <column name="complain_id" />
+            <generator class="identity"></generator>
+        </id>
+        <property name="username" type="string">
+            <column name="username" length="54" not-null="true" />
+        </property>
+        <property name="complainTitle" type="string">
+            <column name="complain_title" length="54" not-null="true" />
+        </property>
+        <property name="complainDescription" type="string">
+            <column name="complain_description" length="500" not-null="true" />
+        </property>
+        <property name="venue" type="string">
+            <column name="venue" length="54" not-null="true" />
+        </property>
+        <property name="imageName" type="string">
+            <column name="image_name" length="200" not-null="true" />
+        </property>
+        <property name="status" type="string">
+            <column name="status" length="25" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 20, 2017 3:21:27 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="hibernate.RegistrationTable" table="registration_table" catalog="ohsdb" optimistic-lock="version">
+        <id name="username" type="string">
+            <column name="username" length="54" />
+            <generator class="assigned" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" length="54" not-null="true" />
+        </property>
+        <property name="email" type="string">
+            <column name="email" length="20" not-null="true" />
+        </property>
+        <property name="password" type="string">
+            <column name="password" length="20" not-null="true" />
+        </property>
+        <property name="retypepassword" type="string">
+            <column name="retypepassword" length="20" not-null="true" />
+        </property>
+        <property name="mobile" type="string">
+            <column name="mobile" length="30" not-null="true" />
+        </property>
+        <property name="address" type="string">
+            <column name="address" length="100" not-null="true" />
+        </property>
+        <property name="userType" type="string">
+            <column name="user_type" length="25" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
